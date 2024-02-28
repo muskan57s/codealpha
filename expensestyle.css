@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h2,h3{
+    font-size:18px;
+    text-align: center;
+    font-family:monospace;
+
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color:teal;
+    color:lavenderblush;
+    font-style: italic;
+}
+.input{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    font-size: 3vh;
+   font-style: italic;
+}
+#category-select,#amt-input,#date{
+    outline: none;
+  padding:4px;
+  color:teal;
+}
+
+.input label{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input input[type="number"],.input input[type="date"]{
+    padding:5x;
+    margin-right: 10px;
+}
+
+.input button{
+    padding:10px;
+    background-color:#dcecea;
+    color:teal;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+.input button:hover{
+     background-color: teal;
+     color:white;
+}
+hr{
+   margin:50px 70px; 
+}
+.expenses{
+    margin:50px;
+}
+
+table{
+    margin-top: 10px;
+    width:100%;
+    border-collapse:collapse;
+}
+th,td{
+    padding:8px;
+    text-align: left;
+}
+th{
+    background-color: #ebebef;
+    color:teal;
+}
+table tfoot{
+    font-size: 3vh;
+}
+    
+tfoot td{
+    font-weight: bold;
+}
+.dlt-btn{
+    padding: 5px 10px;
+    background-color: #f44336;
+    color:white;
+    border:none;
+    border-radius:3px;
+    cursor:pointer;
+}
